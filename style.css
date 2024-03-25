@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#todo-container {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    align-items: center ;
+    margin: 20px;
+    ;
+}
+
