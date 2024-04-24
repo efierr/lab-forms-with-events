@@ -1,11 +1,11 @@
-const todoForm = document.getElementById("todo-form");
+const todoForm = document.querySelector("form");
 const todoInput = document.getElementById("todo-input");
-const todoList = document.getElementById("todo-list");
-const pMessage = document.createElement("p");
+const todoList = document.getElementById("list");
+const pMessage = document.querySelector("p");
 pMessage.textContent = "Please write something";
-const li = document.createElement("li");
 
 function addTodo(text) {
+    const li = document.createElement("li");
     li.textContent = text;
     todoList.appendChild(li);
 }
